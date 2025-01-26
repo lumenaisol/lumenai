@@ -1,1 +1,15 @@
+[package]
+name = "ai_data_engineering_toolkit"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Simplify data preparation for machine learning with automated pipelines and AI-driven insights."
+license = "MIT"
+repository = "https://github.com/yourusername/ai-data-engineering-toolkit"
+
+[dependencies]
+serde = "1.0"
+csv = "1.1"
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
 
